@@ -15,8 +15,8 @@ class CaseloginGC(unittest.TestCase):
         self.driver.implicitly_wait(30)
 
         self.url ="https://connect.garmin.cn/modern/activities"
-        self.username ="506494050@qq.com"
-        self.password ="LuoRui0423"
+        self.username =""    ###账号
+        self.password =""    ###密码
 
     #用例执行体
     def test_login_mail(self):
